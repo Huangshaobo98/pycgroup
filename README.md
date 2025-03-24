@@ -9,14 +9,19 @@ This project provides a simple Python-based utility for managing Linux cgroups u
 - Export cgroup information to JSON.
 - Check if cgroups are enabled on the system.
 
+## Install
+```
+pip3 install .
+```
+
+## Uninstall
+```
+pip3 uninstall pycgroup
+```
+
 ## Prerequisites
 - Python 3.6 or higher.
 - Linux system with cgroups enabled.
-
-### Install Dependencies
-```bash
-pip install PyYAML
-```
 
 ## Usage
 You can import the `CGroupNode` and `CGroupRoot` classes in your Python script to interact with the cgroups.
