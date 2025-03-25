@@ -28,7 +28,7 @@ You can import the `CGroupNode` and `CGroupRoot` classes in your Python script t
 
 ### Example 1: Initialize and Manage CGroups
 ```python
-from your_module_name import CGroupRoot
+from pycgroup import CGroupRoot
 
 # Initialize root cgroup node
 root = CGroupRoot.root()
